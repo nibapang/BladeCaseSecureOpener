@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFBF9135F474ADE305168BD /* Pods_BladeCaseSecureOpener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E5E6F0C0F581FF61E5C86F /* Pods_BladeCaseSecureOpener.framework */; };
+		E924B64B2D632D0900E5D3A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B64A2D632D0900E5D3A1 /* AppDelegate.swift */; };
+		E924B64D2D632D0900E5D3A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B64C2D632D0900E5D3A1 /* SceneDelegate.swift */; };
+		E924B64F2D632D0900E5D3A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B64E2D632D0900E5D3A1 /* ViewController.swift */; };
+		E924B6522D632D0900E5D3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E924B6502D632D0900E5D3A1 /* Main.storyboard */; };
+		E924B6542D632D0B00E5D3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E924B6532D632D0B00E5D3A1 /* Assets.xcassets */; };
+		E924B6572D632D0B00E5D3A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E924B6552D632D0B00E5D3A1 /* LaunchScreen.storyboard */; };
+		E924B6622D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B6612D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.swift */; };
+		E924B66C2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B66B2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.swift */; };
+		E924B66E2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B66D2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITestsLaunchTests.swift */; };
+		E924B67B2D632DC400E5D3A1 /* BladeCornerExt++.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B67A2D632DC400E5D3A1 /* BladeCornerExt++.swift */; };
+		E924B67D2D632DDE00E5D3A1 /* BladeStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B67C2D632DDE00E5D3A1 /* BladeStructure.swift */; };
+		E924B67F2D632E0400E5D3A1 /* BladeOnBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B67E2D632E0400E5D3A1 /* BladeOnBoardVC.swift */; };
+		E924B6812D632E1A00E5D3A1 /* BladeHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B6802D632E1A00E5D3A1 /* BladeHomeVC.swift */; };
+		E924B6832D632E2F00E5D3A1 /* BladeGunSpinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B6822D632E2F00E5D3A1 /* BladeGunSpinVC.swift */; };
+		E924B6852D632E4900E5D3A1 /* BladeTabbaraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B6842D632E4900E5D3A1 /* BladeTabbaraVC.swift */; };
+		E924B6872D632E5E00E5D3A1 /* BladeFeecbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B6862D632E5E00E5D3A1 /* BladeFeecbackVC.swift */; };
+		E924B6892D632E7800E5D3A1 /* BladeCollectedGunsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B6882D632E7800E5D3A1 /* BladeCollectedGunsVC.swift */; };
+		E924B68C2D632EA600E5D3A1 /* BladeGunCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B68A2D632EA600E5D3A1 /* BladeGunCell.swift */; };
+		E924B68D2D632EA600E5D3A1 /* BladeGunCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E924B68B2D632EA600E5D3A1 /* BladeGunCell.xib */; };
+		E924B6902D632ED000E5D3A1 /* BladeHomeCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B68E2D632ED000E5D3A1 /* BladeHomeCollCell.swift */; };
+		E924B6912D632ED000E5D3A1 /* BladeHomeCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E924B68F2D632ED000E5D3A1 /* BladeHomeCollCell.xib */; };
+		E924B6942D632F0E00E5D3A1 /* BladeOnBoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B6922D632F0E00E5D3A1 /* BladeOnBoardCVC.swift */; };
+		E924B6952D632F0E00E5D3A1 /* BladeOnBoardCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E924B6932D632F0E00E5D3A1 /* BladeOnBoardCVC.xib */; };
+		E924B6992D6330CB00E5D3A1 /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E924B6982D6330CB00E5D3A1 /* UIViewController+Ext.m */; };
+		E924B69B2D6330E200E5D3A1 /* BladePrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924B69A2D6330E200E5D3A1 /* BladePrivacyVC.swift */; };
+		FF1C0D5D2D636750001D75F6 /* BladeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1C0D5C2D636750001D75F6 /* BladeNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E924B65E2D632D0C00E5D3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E924B63F2D632D0900E5D3A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E924B6462D632D0900E5D3A1;
+			remoteInfo = BladeCaseSecureOpener;
+		};
+		E924B6682D632D0C00E5D3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E924B63F2D632D0900E5D3A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E924B6462D632D0900E5D3A1;
+			remoteInfo = BladeCaseSecureOpener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4501014A7D096052C2B99AE9 /* Pods-BladeCaseSecureOpener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCaseSecureOpener.debug.xcconfig"; path = "Target Support Files/Pods-BladeCaseSecureOpener/Pods-BladeCaseSecureOpener.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C017A8FFF55D3BE4A65B33 /* Pods-BladeCaseSecureOpener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BladeCaseSecureOpener.release.xcconfig"; path = "Target Support Files/Pods-BladeCaseSecureOpener/Pods-BladeCaseSecureOpener.release.xcconfig"; sourceTree = "<group>"; };
+		E924B6472D632D0900E5D3A1 /* BladeCaseSecureOpener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BladeCaseSecureOpener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E924B64A2D632D0900E5D3A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E924B64C2D632D0900E5D3A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E924B64E2D632D0900E5D3A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E924B6512D632D0900E5D3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E924B6532D632D0B00E5D3A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E924B6562D632D0B00E5D3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E924B6582D632D0B00E5D3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E924B65D2D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BladeCaseSecureOpenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E924B6612D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCaseSecureOpenerTests.swift; sourceTree = "<group>"; };
+		E924B6672D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BladeCaseSecureOpenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E924B66B2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCaseSecureOpenerUITests.swift; sourceTree = "<group>"; };
+		E924B66D2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCaseSecureOpenerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E924B67A2D632DC400E5D3A1 /* BladeCornerExt++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BladeCornerExt++.swift"; sourceTree = "<group>"; };
+		E924B67C2D632DDE00E5D3A1 /* BladeStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeStructure.swift; sourceTree = "<group>"; };
+		E924B67E2D632E0400E5D3A1 /* BladeOnBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeOnBoardVC.swift; sourceTree = "<group>"; };
+		E924B6802D632E1A00E5D3A1 /* BladeHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeHomeVC.swift; sourceTree = "<group>"; };
+		E924B6822D632E2F00E5D3A1 /* BladeGunSpinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeGunSpinVC.swift; sourceTree = "<group>"; };
+		E924B6842D632E4900E5D3A1 /* BladeTabbaraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeTabbaraVC.swift; sourceTree = "<group>"; };
+		E924B6862D632E5E00E5D3A1 /* BladeFeecbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeFeecbackVC.swift; sourceTree = "<group>"; };
+		E924B6882D632E7800E5D3A1 /* BladeCollectedGunsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeCollectedGunsVC.swift; sourceTree = "<group>"; };
+		E924B68A2D632EA600E5D3A1 /* BladeGunCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeGunCell.swift; sourceTree = "<group>"; };
+		E924B68B2D632EA600E5D3A1 /* BladeGunCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BladeGunCell.xib; sourceTree = "<group>"; };
+		E924B68E2D632ED000E5D3A1 /* BladeHomeCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeHomeCollCell.swift; sourceTree = "<group>"; };
+		E924B68F2D632ED000E5D3A1 /* BladeHomeCollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BladeHomeCollCell.xib; sourceTree = "<group>"; };
+		E924B6922D632F0E00E5D3A1 /* BladeOnBoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeOnBoardCVC.swift; sourceTree = "<group>"; };
+		E924B6932D632F0E00E5D3A1 /* BladeOnBoardCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BladeOnBoardCVC.xib; sourceTree = "<group>"; };
+		E924B6962D6330CA00E5D3A1 /* BladeCaseSecureOpener-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BladeCaseSecureOpener-Bridging-Header.h"; sourceTree = "<group>"; };
+		E924B6972D6330CB00E5D3A1 /* UIViewController+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		E924B6982D6330CB00E5D3A1 /* UIViewController+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
+		E924B69A2D6330E200E5D3A1 /* BladePrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladePrivacyVC.swift; sourceTree = "<group>"; };
+		F1E5E6F0C0F581FF61E5C86F /* Pods_BladeCaseSecureOpener.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BladeCaseSecureOpener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1C0D5C2D636750001D75F6 /* BladeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E924B6442D632D0900E5D3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFBF9135F474ADE305168BD /* Pods_BladeCaseSecureOpener.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E924B65A2D632D0C00E5D3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E924B6642D632D0C00E5D3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14EA7B8D6B8DF0DE3A3E77D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4501014A7D096052C2B99AE9 /* Pods-BladeCaseSecureOpener.debug.xcconfig */,
+				A7C017A8FFF55D3BE4A65B33 /* Pods-BladeCaseSecureOpener.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		456B004955FF09BFB672D6C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E6F0C0F581FF61E5C86F /* Pods_BladeCaseSecureOpener.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E924B63E2D632D0900E5D3A1 = {
+			isa = PBXGroup;
+			children = (
+				E924B6492D632D0900E5D3A1 /* BladeCaseSecureOpener */,
+				E924B6602D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests */,
+				E924B66A2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests */,
+				E924B6482D632D0900E5D3A1 /* Products */,
+				14EA7B8D6B8DF0DE3A3E77D9 /* Pods */,
+				456B004955FF09BFB672D6C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E924B6482D632D0900E5D3A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E924B6472D632D0900E5D3A1 /* BladeCaseSecureOpener.app */,
+				E924B65D2D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.xctest */,
+				E924B6672D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E924B6492D632D0900E5D3A1 /* BladeCaseSecureOpener */ = {
+			isa = PBXGroup;
+			children = (
+				E924B64A2D632D0900E5D3A1 /* AppDelegate.swift */,
+				E924B64C2D632D0900E5D3A1 /* SceneDelegate.swift */,
+				E924B64E2D632D0900E5D3A1 /* ViewController.swift */,
+				FF1C0D5C2D636750001D75F6 /* BladeNavigationController.swift */,
+				E924B67A2D632DC400E5D3A1 /* BladeCornerExt++.swift */,
+				E924B67C2D632DDE00E5D3A1 /* BladeStructure.swift */,
+				E924B67E2D632E0400E5D3A1 /* BladeOnBoardVC.swift */,
+				E924B6802D632E1A00E5D3A1 /* BladeHomeVC.swift */,
+				E924B6822D632E2F00E5D3A1 /* BladeGunSpinVC.swift */,
+				E924B6842D632E4900E5D3A1 /* BladeTabbaraVC.swift */,
+				E924B6862D632E5E00E5D3A1 /* BladeFeecbackVC.swift */,
+				E924B6882D632E7800E5D3A1 /* BladeCollectedGunsVC.swift */,
+				E924B68A2D632EA600E5D3A1 /* BladeGunCell.swift */,
+				E924B68B2D632EA600E5D3A1 /* BladeGunCell.xib */,
+				E924B68E2D632ED000E5D3A1 /* BladeHomeCollCell.swift */,
+				E924B68F2D632ED000E5D3A1 /* BladeHomeCollCell.xib */,
+				E924B6922D632F0E00E5D3A1 /* BladeOnBoardCVC.swift */,
+				E924B6932D632F0E00E5D3A1 /* BladeOnBoardCVC.xib */,
+				E924B6972D6330CB00E5D3A1 /* UIViewController+Ext.h */,
+				E924B6982D6330CB00E5D3A1 /* UIViewController+Ext.m */,
+				E924B69A2D6330E200E5D3A1 /* BladePrivacyVC.swift */,
+				E924B6502D632D0900E5D3A1 /* Main.storyboard */,
+				E924B6532D632D0B00E5D3A1 /* Assets.xcassets */,
+				E924B6552D632D0B00E5D3A1 /* LaunchScreen.storyboard */,
+				E924B6582D632D0B00E5D3A1 /* Info.plist */,
+				E924B6962D6330CA00E5D3A1 /* BladeCaseSecureOpener-Bridging-Header.h */,
+			);
+			path = BladeCaseSecureOpener;
+			sourceTree = "<group>";
+		};
+		E924B6602D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E924B6612D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.swift */,
+			);
+			path = BladeCaseSecureOpenerTests;
+			sourceTree = "<group>";
+		};
+		E924B66A2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E924B66B2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.swift */,
+				E924B66D2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITestsLaunchTests.swift */,
+			);
+			path = BladeCaseSecureOpenerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E924B6462D632D0900E5D3A1 /* BladeCaseSecureOpener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E924B6712D632D0C00E5D3A1 /* Build configuration list for PBXNativeTarget "BladeCaseSecureOpener" */;
+			buildPhases = (
+				2ED3850541D8240FB82A74BE /* [CP] Check Pods Manifest.lock */,
+				E924B6432D632D0900E5D3A1 /* Sources */,
+				E924B6442D632D0900E5D3A1 /* Frameworks */,
+				E924B6452D632D0900E5D3A1 /* Resources */,
+				1E4C65F7A647E0E56A6B454E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BladeCaseSecureOpener;
+			productName = BladeCaseSecureOpener;
+			productReference = E924B6472D632D0900E5D3A1 /* BladeCaseSecureOpener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E924B65C2D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E924B6742D632D0C00E5D3A1 /* Build configuration list for PBXNativeTarget "BladeCaseSecureOpenerTests" */;
+			buildPhases = (
+				E924B6592D632D0C00E5D3A1 /* Sources */,
+				E924B65A2D632D0C00E5D3A1 /* Frameworks */,
+				E924B65B2D632D0C00E5D3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E924B65F2D632D0C00E5D3A1 /* PBXTargetDependency */,
+			);
+			name = BladeCaseSecureOpenerTests;
+			productName = BladeCaseSecureOpenerTests;
+			productReference = E924B65D2D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E924B6662D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E924B6772D632D0C00E5D3A1 /* Build configuration list for PBXNativeTarget "BladeCaseSecureOpenerUITests" */;
+			buildPhases = (
+				E924B6632D632D0C00E5D3A1 /* Sources */,
+				E924B6642D632D0C00E5D3A1 /* Frameworks */,
+				E924B6652D632D0C00E5D3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E924B6692D632D0C00E5D3A1 /* PBXTargetDependency */,
+			);
+			name = BladeCaseSecureOpenerUITests;
+			productName = BladeCaseSecureOpenerUITests;
+			productReference = E924B6672D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E924B63F2D632D0900E5D3A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E924B6462D632D0900E5D3A1 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E924B65C2D632D0C00E5D3A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E924B6462D632D0900E5D3A1;
+					};
+					E924B6662D632D0C00E5D3A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E924B6462D632D0900E5D3A1;
+					};
+				};
+			};
+			buildConfigurationList = E924B6422D632D0900E5D3A1 /* Build configuration list for PBXProject "BladeCaseSecureOpener" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E924B63E2D632D0900E5D3A1;
+			productRefGroup = E924B6482D632D0900E5D3A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E924B6462D632D0900E5D3A1 /* BladeCaseSecureOpener */,
+				E924B65C2D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests */,
+				E924B6662D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E924B6452D632D0900E5D3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E924B6572D632D0B00E5D3A1 /* LaunchScreen.storyboard in Resources */,
+				E924B6542D632D0B00E5D3A1 /* Assets.xcassets in Resources */,
+				E924B6952D632F0E00E5D3A1 /* BladeOnBoardCVC.xib in Resources */,
+				E924B6912D632ED000E5D3A1 /* BladeHomeCollCell.xib in Resources */,
+				E924B68D2D632EA600E5D3A1 /* BladeGunCell.xib in Resources */,
+				E924B6522D632D0900E5D3A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E924B65B2D632D0C00E5D3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E924B6652D632D0C00E5D3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E4C65F7A647E0E56A6B454E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BladeCaseSecureOpener/Pods-BladeCaseSecureOpener-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BladeCaseSecureOpener/Pods-BladeCaseSecureOpener-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BladeCaseSecureOpener/Pods-BladeCaseSecureOpener-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ED3850541D8240FB82A74BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BladeCaseSecureOpener-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E924B6432D632D0900E5D3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E924B64F2D632D0900E5D3A1 /* ViewController.swift in Sources */,
+				E924B67F2D632E0400E5D3A1 /* BladeOnBoardVC.swift in Sources */,
+				E924B68C2D632EA600E5D3A1 /* BladeGunCell.swift in Sources */,
+				E924B6902D632ED000E5D3A1 /* BladeHomeCollCell.swift in Sources */,
+				E924B6942D632F0E00E5D3A1 /* BladeOnBoardCVC.swift in Sources */,
+				E924B6992D6330CB00E5D3A1 /* UIViewController+Ext.m in Sources */,
+				E924B67D2D632DDE00E5D3A1 /* BladeStructure.swift in Sources */,
+				E924B6852D632E4900E5D3A1 /* BladeTabbaraVC.swift in Sources */,
+				E924B67B2D632DC400E5D3A1 /* BladeCornerExt++.swift in Sources */,
+				E924B6832D632E2F00E5D3A1 /* BladeGunSpinVC.swift in Sources */,
+				FF1C0D5D2D636750001D75F6 /* BladeNavigationController.swift in Sources */,
+				E924B64B2D632D0900E5D3A1 /* AppDelegate.swift in Sources */,
+				E924B6892D632E7800E5D3A1 /* BladeCollectedGunsVC.swift in Sources */,
+				E924B64D2D632D0900E5D3A1 /* SceneDelegate.swift in Sources */,
+				E924B6812D632E1A00E5D3A1 /* BladeHomeVC.swift in Sources */,
+				E924B69B2D6330E200E5D3A1 /* BladePrivacyVC.swift in Sources */,
+				E924B6872D632E5E00E5D3A1 /* BladeFeecbackVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E924B6592D632D0C00E5D3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E924B6622D632D0C00E5D3A1 /* BladeCaseSecureOpenerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E924B6632D632D0C00E5D3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E924B66C2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITests.swift in Sources */,
+				E924B66E2D632D0C00E5D3A1 /* BladeCaseSecureOpenerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E924B65F2D632D0C00E5D3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E924B6462D632D0900E5D3A1 /* BladeCaseSecureOpener */;
+			targetProxy = E924B65E2D632D0C00E5D3A1 /* PBXContainerItemProxy */;
+		};
+		E924B6692D632D0C00E5D3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E924B6462D632D0900E5D3A1 /* BladeCaseSecureOpener */;
+			targetProxy = E924B6682D632D0C00E5D3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E924B6502D632D0900E5D3A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E924B6512D632D0900E5D3A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E924B6552D632D0B00E5D3A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E924B6562D632D0B00E5D3A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E924B66F2D632D0C00E5D3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E924B6702D632D0C00E5D3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E924B6722D632D0C00E5D3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4501014A7D096052C2B99AE9 /* Pods-BladeCaseSecureOpener.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BladeCaseSecureOpener/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BladeCase SecureOpener";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blade.BladeCaseSecureOpener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BladeCaseSecureOpener/BladeCaseSecureOpener-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E924B6732D632D0C00E5D3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C017A8FFF55D3BE4A65B33 /* Pods-BladeCaseSecureOpener.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BladeCaseSecureOpener/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BladeCase SecureOpener";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blade.BladeCaseSecureOpener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BladeCaseSecureOpener/BladeCaseSecureOpener-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E924B6752D632D0C00E5D3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blade.BladeCaseSecureOpenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BladeCaseSecureOpener.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BladeCaseSecureOpener";
+			};
+			name = Debug;
+		};
+		E924B6762D632D0C00E5D3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blade.BladeCaseSecureOpenerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BladeCaseSecureOpener.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BladeCaseSecureOpener";
+			};
+			name = Release;
+		};
+		E924B6782D632D0C00E5D3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blade.BladeCaseSecureOpenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BladeCaseSecureOpener;
+			};
+			name = Debug;
+		};
+		E924B6792D632D0C00E5D3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blade.BladeCaseSecureOpenerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BladeCaseSecureOpener;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E924B6422D632D0900E5D3A1 /* Build configuration list for PBXProject "BladeCaseSecureOpener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E924B66F2D632D0C00E5D3A1 /* Debug */,
+				E924B6702D632D0C00E5D3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E924B6712D632D0C00E5D3A1 /* Build configuration list for PBXNativeTarget "BladeCaseSecureOpener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E924B6722D632D0C00E5D3A1 /* Debug */,
+				E924B6732D632D0C00E5D3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E924B6742D632D0C00E5D3A1 /* Build configuration list for PBXNativeTarget "BladeCaseSecureOpenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E924B6752D632D0C00E5D3A1 /* Debug */,
+				E924B6762D632D0C00E5D3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E924B6772D632D0C00E5D3A1 /* Build configuration list for PBXNativeTarget "BladeCaseSecureOpenerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E924B6782D632D0C00E5D3A1 /* Debug */,
+				E924B6792D632D0C00E5D3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E924B63F2D632D0900E5D3A1 /* Project object */;
+}
